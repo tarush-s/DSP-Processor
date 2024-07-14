@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon Jul  1 20:08:27 2024
+# Process ID: 27636
+# Current directory: D:/Vivado Workspace/Arty-A7/DSP_PROCESSOR/DSP_PROCESSOR.runs/impl_1
+# Command line: vivado.exe -log DSP_PROCESSOR.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source DSP_PROCESSOR.tcl -notrace
+# Log file: D:/Vivado Workspace/Arty-A7/DSP_PROCESSOR/DSP_PROCESSOR.runs/impl_1/DSP_PROCESSOR.vdi
+# Journal file: D:/Vivado Workspace/Arty-A7/DSP_PROCESSOR/DSP_PROCESSOR.runs/impl_1\vivado.jou
+# Running On: LAPTOP-U64NKUOV, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 14, Host memory: 16857 MB
+#-----------------------------------------------------------
+source DSP_PROCESSOR.tcl -notrace
