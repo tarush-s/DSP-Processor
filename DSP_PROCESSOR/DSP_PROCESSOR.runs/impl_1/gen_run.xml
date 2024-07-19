@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1721407144">
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1721411464">
   <File Type="ROUTE-PWR" Name="DSP_PROCESSOR_power_routed.rpt"/>
   <File Type="PA-TCL" Name="DSP_PROCESSOR.tcl"/>
   <File Type="ROUTE-PWR-SUM" Name="DSP_PROCESSOR_power_summary_routed.pb"/>
@@ -93,6 +93,13 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/sources_1/new/fir_filter.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/new/uart_rx.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -102,14 +109,6 @@
     </File>
     <File Path="$PSRCDIR/sources_1/new/DSP_PROCESSOR.v">
       <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/new/fir_filter.v">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>

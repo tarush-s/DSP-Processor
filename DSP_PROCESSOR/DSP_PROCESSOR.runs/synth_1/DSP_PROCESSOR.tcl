@@ -94,6 +94,7 @@ read_mem {
 }
 read_verilog -library xil_defaultlib {
   {D:/Vivado Workspace/Arty-A7/DSP_PROCESSOR/DSP_PROCESSOR.srcs/sources_1/new/fifo.v}
+  {D:/Vivado Workspace/Arty-A7/DSP_PROCESSOR/DSP_PROCESSOR.srcs/sources_1/new/fir_filter.v}
   {D:/Vivado Workspace/Arty-A7/DSP_PROCESSOR/DSP_PROCESSOR.srcs/sources_1/new/uart_rx.v}
   {D:/Vivado Workspace/Arty-A7/DSP_PROCESSOR/DSP_PROCESSOR.srcs/sources_1/new/DSP_PROCESSOR.v}
 }

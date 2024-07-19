@@ -42,7 +42,7 @@ module fir_filter#(
     // Local declaration 
     reg [LGNTAP:0] tapmem [0:NTAPS];    // tap memmory
     initial begin 
-        $readmemh("Tap_Memory.mem",tapmem); 
+        $readmemh("Filter_Memory.mem",tapmem); 
     end
     reg signed [LGNTAP:0] tap;          // value read from tap memory
     
