@@ -88,7 +88,12 @@ set_property ip_output_repo {d:/Vivado Workspace/Arty-A7/DSP_PROCESSOR/DSP_PROCE
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
+read_mem {
+  {D:/Vivado Workspace/Arty-A7/DSP_PROCESSOR/DSP_PROCESSOR.srcs/sources_1/new/Data_Memory.mem}
+  {D:/Vivado Workspace/Arty-A7/DSP_PROCESSOR/DSP_PROCESSOR.srcs/sources_1/new/Filter_Memory.mem}
+}
 read_verilog -library xil_defaultlib {
+  {D:/Vivado Workspace/Arty-A7/DSP_PROCESSOR/DSP_PROCESSOR.srcs/sources_1/new/fifo.v}
   {D:/Vivado Workspace/Arty-A7/DSP_PROCESSOR/DSP_PROCESSOR.srcs/sources_1/new/uart_rx.v}
   {D:/Vivado Workspace/Arty-A7/DSP_PROCESSOR/DSP_PROCESSOR.srcs/sources_1/new/DSP_PROCESSOR.v}
 }

@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
-| Date             : Mon Jul  1 20:09:43 2024
+| Date             : Fri Jul 19 11:39:58 2024
 | Host             : LAPTOP-U64NKUOV running 64-bit major release  (build 9200)
 | Command          : report_power -file DSP_PROCESSOR_power_routed.rpt -pb DSP_PROCESSOR_power_summary_routed.pb -rpx DSP_PROCESSOR_power_routed.rpx
 | Design           : DSP_PROCESSOR
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 0.397        |
+| Total On-Chip Power (W)  | 1.872        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 0.312        |
-| Device Static (W)        | 0.085        |
+| Dynamic (W)              | 1.768        |
+| Device Static (W)        | 0.104        |
 | Effective TJA (C/W)      | 4.6          |
-| Max Ambient (C)          | 83.2         |
-| Junction Temperature (C) | 26.8         |
+| Max Ambient (C)          | 76.5         |
+| Junction Temperature (C) | 33.5         |
 | Confidence Level         | Low          |
 | Setting File             | ---          |
 | Simulation Activity File | ---          |
@@ -52,15 +52,15 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Slice Logic    |     0.175 |       80 |       --- |             --- |
-|   LUT as Logic |     0.163 |       41 |     63400 |            0.06 |
-|   Register     |     0.006 |       27 |    126800 |            0.02 |
+| Slice Logic    |     0.176 |       69 |       --- |             --- |
+|   LUT as Logic |     0.163 |       36 |     63400 |            0.06 |
+|   Register     |     0.007 |       22 |    126800 |            0.02 |
 |   BUFG         |     0.006 |        1 |        32 |            3.13 |
-|   Others       |     0.000 |        2 |       --- |             --- |
-| Signals        |     0.129 |       62 |       --- |             --- |
-| I/O            |     0.008 |        3 |       210 |            1.43 |
-| Static Power   |     0.085 |          |           |                 |
-| Total          |     0.397 |          |           |                 |
+|   Others       |     0.000 |        3 |       --- |             --- |
+| Signals        |     0.138 |       48 |       --- |             --- |
+| I/O            |     1.455 |        4 |       210 |            1.90 |
+| Static Power   |     0.104 |          |           |                 |
+| Total          |     1.872 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -70,9 +70,9 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     0.328 |       0.312 |      0.016 |       NA    | Unspecified | NA         |
-| Vccaux    |       1.800 |     0.018 |       0.000 |      0.018 |       NA    | Unspecified | NA         |
-| Vcco33    |       3.300 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     0.342 |       0.322 |      0.021 |       NA    | Unspecified | NA         |
+| Vccaux    |       1.800 |     0.072 |       0.053 |      0.019 |       NA    | Unspecified | NA         |
+| Vcco33    |       3.300 |     0.413 |       0.409 |      0.004 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -137,8 +137,9 @@ Table of Contents
 +---------------+-----------+
 | Name          | Power (W) |
 +---------------+-----------+
-| DSP_PROCESSOR |     0.312 |
-|   u1          |     0.279 |
+| DSP_PROCESSOR |     1.768 |
+|   rx1         |     0.038 |
+|   u1          |     0.257 |
 +---------------+-----------+
 
 

@@ -21,24 +21,32 @@
 
 
 module DSP_PROCESSOR(
-    input wire clk_100MHz, 
+    input wire clk_100MHz,
+    input wire rst,
     input wire rx_serial,
-    output reg uart_check
+    output wire rx_fifo_full
     );
     
     wire rx_status; 
     wire[7:0] rx_data;
+    wire rx_fifo_overrun,rx_fifo_empty,rx_fifo_underrun;
+    wire rx_fifo_read_en;
+    wire [7:0] rx_fifo_data_out;
     
-    always@(*)begin
-        if(rx_status == 1'b1 && rx_data == 8'h10)begin
-            uart_check = 1'b1;
-        end     
-        else begin 
-            uart_check = 1'b0;
-        end 
-    end 
     
-    uart_rx u1(.clk(clk_100MHz), 
+    fifo rx1(.i_clk(clk_100MHz), 
+            .i_rst(rst),
+            .i_write_en(rx_status),
+            .i_write_data(rx_data),
+            .i_read_en(rx_fifo_read_en),
+            .o_data_out(rx_fifo_data_out),
+            .o_full(rx_fifo_full),
+            .o_overrun(rx_fifo_overrun),
+            .o_underrun(rx_fifo_underrun),
+            .o_empty(rx_fifo_empty));
+    
+    uart_rx u1(.clk(clk_100MHz),
+               .rst(rst), 
                .rx_serial(rx_serial), 
                .rx_done(rx_status),
                .rx_data(rx_data)
