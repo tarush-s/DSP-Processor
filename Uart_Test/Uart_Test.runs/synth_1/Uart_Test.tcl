@@ -70,11 +70,8 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param checkpoint.writeSynthRtdsInDcp 1
 set_param chipscope.maxJobs 5
-set_param synth.incrementalSynthesisCache C:/Users/Tarush/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-8556-LAPTOP-U64NKUOV/incrSyn
-set_msg_config -id {Synth 8-256} -limit 10000
-set_msg_config -id {Synth 8-638} -limit 10000
+set_param xicom.use_bs_reader 1
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a100tcsg324-1
 
@@ -91,7 +88,10 @@ set_property ip_output_repo {d:/Vivado Workspace/Arty-A7/Uart_Test/Uart_Test.cac
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_verilog -library xil_defaultlib {{D:/Vivado Workspace/Arty-A7/Uart_Test/Uart_Test.srcs/sources_1/new/Uart_Test.v}}
+read_verilog -library xil_defaultlib {
+  {D:/Vivado Workspace/Arty-A7/Uart_Test/Uart_Test.srcs/sources_1/new/uarttx.v}
+  {D:/Vivado Workspace/Arty-A7/Uart_Test/Uart_Test.srcs/sources_1/new/Uart_Test.v}
+}
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the

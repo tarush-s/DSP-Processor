@@ -3,8 +3,8 @@
 # SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Mon Jul  1 11:08:56 2024
-# Process ID: 12804
+# Start of session at: Sat Jul 20 18:52:50 2024
+# Process ID: 6000
 # Current directory: D:/Vivado Workspace/Arty-A7/Uart_Test/Uart_Test.runs/synth_1
 # Command line: vivado.exe -log Uart_Test.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Uart_Test.tcl
 # Log file: D:/Vivado Workspace/Arty-A7/Uart_Test/Uart_Test.runs/synth_1/Uart_Test.vds

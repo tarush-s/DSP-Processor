@@ -21,14 +21,32 @@
 
 
 module Uart_Test(
-    input wire clk,
-    input wire a,
-    input wire b,
-    output reg rx_done
+    input wire clk_100MHz,
+    output wire tx_serial,
+    output wire tx_done,
+    output wire tx_status
     );
     
-    always@(posedge clk)begin
-        rx_done <= a + b;
-    end 
-          
+    reg [7:0] tx_data = 8'h10;
+    wire tx_en; 
+    reg tx_state = 0;
+    reg [15:0] counter = 0;
+    
+    always@(posedge clk_100MHz)begin 
+        if(counter == 16'hFFFF)begin 
+            tx_state <= ~tx_state;
+            counter <= 0;
+        end 
+        else begin
+            counter <= counter + 1'b1;
+        end 
+    end
+    assign tx_en = tx_state; 
+    
+    uarttx t1(.clk(clk_100MHz),
+              .tx_enable(tx_en),
+              .tx_data(tx_data),
+              .tx_busy(tx_status),
+              .tx_serial(tx_serial),
+              .tx_done(tx_done));      
 endmodule
