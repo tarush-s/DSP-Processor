@@ -1,105 +1,20 @@
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="Tarush" Host="LAPTOP-U64NKUOV" Pid="16776" HostCore="20" HostMemory="016857182208">
+    <Process Command="vivado.bat" Owner="Tarush" Host="LAPTOP-U64NKUOV" Pid="19240" HostCore="20" HostMemory="016857182208">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="Tarush" Host="LAPTOP-U64NKUOV" Pid="24368" HostCore="20" HostMemory="016857182208">
+    <Process Command="vivado.bat" Owner="Tarush" Host="LAPTOP-U64NKUOV" Pid="22612" HostCore="20" HostMemory="016857182208">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="Tarush" Host="LAPTOP-U64NKUOV" Pid="22172" HostCore="20" HostMemory="016857182208">
+    <Process Command="vivado.bat" Owner="Tarush" Host="LAPTOP-U64NKUOV" Pid="21724" HostCore="20" HostMemory="016857182208">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="Tarush" Host="LAPTOP-U64NKUOV" Pid="2372" HostCore="20" HostMemory="016857182208">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="Tarush" Host="LAPTOP-U64NKUOV" Pid="23896" HostCore="20" HostMemory="016857182208">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="Tarush" Host="LAPTOP-U64NKUOV" Pid="5820" HostCore="20" HostMemory="016857182208">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="Tarush" Host="LAPTOP-U64NKUOV" Pid="4464" HostCore="20" HostMemory="016857182208">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="Tarush" Host="LAPTOP-U64NKUOV" Pid="5212" HostCore="20" HostMemory="016857182208">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="Tarush" Host="LAPTOP-U64NKUOV" Pid="8492" HostCore="20" HostMemory="016857182208">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="Tarush" Host="LAPTOP-U64NKUOV" Pid="12624" HostCore="20" HostMemory="016857182208">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="Tarush" Host="LAPTOP-U64NKUOV" Pid="15252" HostCore="20" HostMemory="016857182208">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="Tarush" Host="LAPTOP-U64NKUOV" Pid="26456" HostCore="20" HostMemory="016857182208">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="Tarush" Host="LAPTOP-U64NKUOV" Pid="23676" HostCore="20" HostMemory="016857182208">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="Tarush" Host="LAPTOP-U64NKUOV" Pid="16636" HostCore="20" HostMemory="016857182208">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="Tarush" Host="LAPTOP-U64NKUOV" Pid="19900" HostCore="20" HostMemory="016857182208">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="Tarush" Host="LAPTOP-U64NKUOV" Pid="7676" HostCore="20" HostMemory="016857182208">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="Tarush" Host="LAPTOP-U64NKUOV" Pid="14256" HostCore="20" HostMemory="016857182208">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="Tarush" Host="LAPTOP-U64NKUOV" Pid="14512" HostCore="20" HostMemory="016857182208">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="Tarush" Host="LAPTOP-U64NKUOV" Pid="4352" HostCore="20" HostMemory="016857182208">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="Tarush" Host="LAPTOP-U64NKUOV" Pid="19900" HostCore="20" HostMemory="016857182208">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="Tarush" Host="LAPTOP-U64NKUOV" Pid="18880" HostCore="20" HostMemory="016857182208">
+    <Process Command="vivado.bat" Owner="Tarush" Host="LAPTOP-U64NKUOV" Pid="18160" HostCore="20" HostMemory="016857182208">
     </Process>
 </ProcessHandle>

@@ -9,3 +9,5 @@ set_property src_info {type:XDC file:1 line:32 export:INPUT save:INPUT read:READ
 set_property -dict { PACKAGE_PIN J5    IOSTANDARD LVCMOS33 } [get_ports { tx_fifo_empty }]; #IO_25_35 Sch=led[5]
 set_property src_info {type:XDC file:1 line:50 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN G13   IOSTANDARD LVCMOS33 } [get_ports { rx_serial }]; #IO_0_15 Sch=ja[1]
+set_property src_info {type:XDC file:1 line:51 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN B11   IOSTANDARD LVCMOS33 } [get_ports { tx_serial }]; #IO_L4P_T0_15 Sch=ja[2]
