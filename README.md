@@ -1,8 +1,7 @@
 # DSP PROCESSOR ON FPGA 
+Hardware Used: 
     * FPGA: ARTY A7-100T Artix-7
     * MCU: SAMW 25 Microchip 
-
-# Floating Point to Fixed Point Precision
 
 ## Low-Pass Filter Specification:
 <p>
@@ -40,7 +39,7 @@ static double impulse response[FIR_FILTER_LENGTH] = {<br>
   -0.01259277478717816<br>
 };<br>
 
-Floating Point representation to fixed point representation: <br>
+## Floating Point representation to fixed point representation: <br>
 
 A 16-bit register stores the tap and 15-bit values for the fractional part. <br>
 
