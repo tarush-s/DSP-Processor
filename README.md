@@ -4,7 +4,7 @@
 
 # Floating Point to Fixed Point Precision
 
-Low-Pass Filter Specs
+## Low-Pass Filter Specification:
 <p>
     sampling frequency: 100 Hz
 
