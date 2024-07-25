@@ -1,5 +1,5 @@
 # DSP PROCESSOR ON FPGA 
-Hardware Used: <br>
+<p>Hardware Used: <br></p>
     * FPGA: ARTY A7-100T Artix-7
     * MCU: SAMW 25 Microchip 
 
@@ -61,3 +61,6 @@ tap 12 = 2's compliment(-0.031157016036431583 * 32768) 	= 0xFC03<br>
 tap 13 = 2's compliment(-0.02704833486706803 * 32768) 	= 0xFC8A<br>
 tap 14 = 2's compliment(-0.01259277478717816 * 32768) 	= 0xFE63<br>
 </p>
+
+## System Block Diagram 
+
