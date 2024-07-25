@@ -76,6 +76,8 @@ static void uart_task_handler(void* parameters){
 	
 	status_code_genare_t status_tx_check = STATUS_OK;
 	
+	uint16_t rx_buffer = 0;
+	
 	while(1){
 
 		/*Get Data from accelerometer sensor*/
@@ -87,17 +89,12 @@ static void uart_task_handler(void* parameters){
 			while(1);
 		}
 		
-		status_tx_check = usart_write_wait(&usart_master_module,acc_sensor.acc_raw[1]);
+		status_tx_check = usart_read_wait(&usart_master_module,&rx_buffer);
 		
 		if(status_tx_check != STATUS_OK){
 			while(1);
 		}
 		
-		status_tx_check = usart_write_wait(&usart_master_module,acc_sensor.acc_raw[2]);
-		
-		if(status_tx_check != STATUS_OK){
-			while(1);
-		}
 		
 		vTaskDelayUntil(&lastwakeup,xDelay);	
 	}
