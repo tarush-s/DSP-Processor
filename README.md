@@ -1,7 +1,7 @@
 # DSP PROCESSOR ON FPGA 
 <p>Hardware Used: <br></p>
-    * FPGA: ARTY A7-100T Artix-7
-    * MCU: SAMW 25 Microchip 
+    * FPGA: ARTY A7-100T Artix-7<br>
+    * MCU: SAMW 25 Microchip <br>
 
 ## Software Implementation
 
