@@ -2,6 +2,7 @@
 <p>Hardware Used: <br></p>
     * FPGA: ARTY A7-100T Artix-7<br>
     * MCU: SAMW 25 Microchip <br>
+    * Sensor: ADXL 345 Accelerometer
 
 ## Software Implementation
 
