@@ -25,7 +25,7 @@
 </p>
 
 
-<p> 15 Tap Filter impulse response: 
+<p> 15 Tap Filter impulse response: <br>
   Tap 0  = -0.01259277478717816,<br>
   Tap 1  = -0.02704833486706803,<br>
   Tap 2  = -0.031157016036431583,<br>
