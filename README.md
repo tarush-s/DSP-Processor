@@ -3,6 +3,13 @@
     * FPGA: ARTY A7-100T Artix-7
     * MCU: SAMW 25 Microchip 
 
+## Software Implementation
+
+  <p> The software implementation - <br>
+  The FIR Filter is implemented on the MCU can be found in the folder : Sensor Fusion2<br>
+  This is used as a baseline for the main project as well as the hardware design on the fpga usng verilog<br>
+  
+  </p>
 ## Low-Pass Filter Specification:
 <p>
     sampling frequency: 100 Hz
