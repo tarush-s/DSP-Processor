@@ -7,9 +7,8 @@
 
   <p> The software implementation - <br>
   The FIR Filter is implemented on the MCU can be found in the folder : Sensor Fusion2<br>
-  This is used as a baseline for the main project as well as the hardware design on the fpga usng verilog<br>
-  
-  </p>
+  This is used as a baseline for the main project as well as the hardware design on the fpga usng verilog<br>  </p>
+
 ## Low-Pass Filter Specification:
 <p>
     sampling frequency: 100 Hz
@@ -27,24 +26,22 @@
 
 
 <p> 15 Tap Filter impulse response: 
-
-static double impulse response[FIR_FILTER_LENGTH] = {<br>
-  -0.01259277478717816,<br>
-  -0.02704833486706803,<br>
-  -0.031157016036431583,<br>
-  -0.003351666747179282,<br>
-  0.06651710329324828,<br>
-  0.1635643048779222,<br>
-  0.249729473226146,<br>
-  0.2842779082622769,<br>
-  0.249729473226146,<br>
-  0.1635643048779222,<br>
-  0.06651710329324828,<br>
-  -0.003351666747179282,<br>
-  -0.031157016036431583,<br>
-  -0.02704833486706803,<br>
-  -0.01259277478717816<br>
-};<br>
+  Tap 0  = -0.01259277478717816,<br>
+  Tap 1  = -0.02704833486706803,<br>
+  Tap 2  = -0.031157016036431583,<br>
+  Tap 3  = -0.003351666747179282,<br>
+  Tap 4  = 0.06651710329324828,<br>
+  Tap 5  = 0.1635643048779222,<br>
+  Tap 6  = 0.249729473226146,<br>
+  Tap 7  = 0.2842779082622769,<br>
+  Tap 8  = 0.249729473226146,<br>
+  Tap 9  = 0.1635643048779222,<br>
+  Tap 10 = 0.06651710329324828,<br>
+  Tap 11 = -0.003351666747179282,<br>
+  Tap 12 = -0.031157016036431583,<br>
+  Tap 13 = -0.02704833486706803,<br>
+  Tap 14 = -0.01259277478717816<br>
+<br></p>
 
 ## Floating Point representation to fixed point representation: <br>
 
