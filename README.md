@@ -69,3 +69,7 @@ tap 14 = 2's compliment(-0.01259277478717816 * 32768) 	= 0xFE63<br>
 
 ## System Block Diagram 
 
+<p>
+The following diagram shows a high level system block diagram for my design.</p>
+
+<img src=https://github.com/tarush-s/DSP-Processor/tree/master/System_Diagram.pdf  width=50% height=50%>
